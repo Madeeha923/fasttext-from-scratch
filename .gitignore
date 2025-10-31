@@ -3,3 +3,5 @@ venv/
 *.txt
 .ipynb_checkpoints/
 *.ipynb_save
+*.test
+*.train
