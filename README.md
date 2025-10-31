@@ -33,5 +33,29 @@ The dataset consists of product descriptions and their corresponding category la
 | `description` | Text description of the product |
 | `category_description` | Combined field used for training (`__label__category description`) |
 
+
+##  Model Performance Overview  
+
+After training the FastText model from scratch on the e-commerce dataset, the following performance metrics were observed during evaluation on the test data:
+
+
+###  Summary of Results
+| Metric | Value | Description |
+|--------|--------|-------------|
+| **Test Samples** | 10,085 | Total number of examples used for evaluation |
+| **Precision** | 97.15% | Fraction of correctly predicted categories among all predictions |
+| **Recall** | 97.15% | Fraction of correctly predicted categories among all actual labels |
+| **Average Loss** | 0.1742 | Indicates the model’s prediction error; lower is better |
+| **Labels** | 4 | Number of product categories classified |
+
+---
+
+###  Performance Explanation  
+- The FastText model achieved a **high precision and recall of 97.15%**, which reflects strong and consistent performance across all product categories.  
+- The **low average loss (0.17)** shows that the model fits the training data well without significant overfitting.  
+- FastText’s **subword embeddings** allow it to handle **out-of-vocabulary (OOV)** words effectively — meaning it can make accurate predictions even on unseen or misspelled words.  
+- The model generalizes well on unseen e-commerce product descriptions, demonstrating FastText’s ability to capture word-level and subword-level semantics efficiently.  
+
+
 ## Dataset link
  https://www.kaggle.com/datasets/saurabhshahane/ecommerce-text-classification
