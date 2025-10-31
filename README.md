@@ -1,11 +1,11 @@
-# Understanding FastText from Scratch — E-commerce Text Classification Pipeline
+#  FastText from Scratch — E-commerce Text Classification Pipeline
 
 ## About
 This repository demonstrates the **complete working of FastText from scratch**, showing how to train, test, and make predictions using **FastText’s supervised text classification** capabilities.  
 
 The example use case here is an **e-commerce product categorization task**, where the goal is to classify product descriptions into categories such as Electronics, Fashion, and Household.
 
-By going through this pipeline, we will see:
+By going through this pipeline:
 - How FastText processes and learns from text data  
 - How to train a FastText model from scratch  
 - How to evaluate it using test data  
@@ -14,7 +14,7 @@ By going through this pipeline, we will see:
 ---
 
 ## Goal
-The primary goal of this project is **to understand the inner working of FastText from scratch** — not just to use it as a black box, but to explore how it learns word and subword representations, how training is performed, and how predictions are made on unseen text.
+The primary goal of this project is **to understand the inner working of FastText from scratch**  to explore how it learns word and subword representations, how training is performed, and how predictions are made on unseen text.
 
 We aim to:
 - Prepare data in the required FastText format  
